@@ -1,0 +1,11 @@
+{
+    "name": "Page Encrypter",
+    "description": "Encrypts all the text on a page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "/images/icon.png"
+    }
+}
